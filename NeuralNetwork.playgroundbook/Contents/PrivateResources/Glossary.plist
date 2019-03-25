@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Terms</key>
+	<dict>
+		<key>Hidden layer</key>
+		<dict>
+			<key>Definition</key>
+			<string>The Layers that are in between the output layer and the input layer</string>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>Title</key>
+				<string></string>
+			</dict>
+		</dict>
+		<key>Epochs</key>
+		<dict>
+			<key>Definition</key>
+			<string>The number of iterations that are used for pass the training data through the network</string>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>Title</key>
+				<string></string>
+			</dict>
+		</dict>
+		<key>Learning Rate</key>
+		<dict>
+			<key>Definition</key>
+			<string>The learning rate determines how quickly the network changes the weights based on the loss</string>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>Title</key>
+				<string></string>
+			</dict>
+		</dict>
+		<key>Neural Network</key>
+		<dict>
+			<key>Definition</key>
+			<string>Neural network is a machine learning strategy whose structure is loosely based on the structure of a brain&apos;s neurons.
+
+ The network consists of several layers of neurons. All neurons are connected to all neurons from the previous and preceding layers. If the network is fed with data, the connections that lead to a correct response are strengthened and connections that lead to errors are weakened.
+</string>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>Title</key>
+				<string></string>
+			</dict>
+		</dict>
+		<key>Neurons</key>
+		<dict>
+			<key>Definition</key>
+			<string>The nodes inside a Neural  Network</string>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>Title</key>
+				<string></string>
+			</dict>
+		</dict>
+		<key>Layer</key>
+		<dict>
+			<key>Definition</key>
+			<string>A group of nodes that represents a layer of the network</string>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>Title</key>
+				<string></string>
+			</dict>
+		</dict>
+		<key>Activation Function</key>
+		<dict>
+			<key>Definition</key>
+			<string>The activation function defines the output of a node for an input value. It can also be used to set the value to a certain range (e.g. between 0 and 1).</string>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>Title</key>
+				<string></string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

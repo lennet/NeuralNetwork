@@ -40,7 +40,6 @@
 		9866F643223C527700063BF8 /* ProptionalStackViewChildContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9866F642223C527600063BF8 /* ProptionalStackViewChildContainerView.swift */; };
 		9888FC2A221CAF0900405BFD /* InterpolationHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9888FC29221CAF0900405BFD /* InterpolationHelperTests.swift */; };
 		988CE573223EC8D300D3A48A /* AxisLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988CE572223EC8D300D3A48A /* AxisLayer.swift */; };
-		988CE58B22401D1A00D3A48A /* PlaygroundSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 988CE57B22401D1A00D3A48A /* PlaygroundSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		988CE58E22401D1A00D3A48A /* PlaygroundSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 988CE57922401D1A00D3A48A /* PlaygroundSupport.framework */; };
 		988CE58F22401D1A00D3A48A /* PlaygroundSupport.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 988CE57922401D1A00D3A48A /* PlaygroundSupport.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		988CE59822401D4F00D3A48A /* PlaygroundPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988CE59722401D4F00D3A48A /* PlaygroundPage.swift */; };
@@ -133,7 +132,6 @@
 		9888FC29221CAF0900405BFD /* InterpolationHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterpolationHelperTests.swift; sourceTree = "<group>"; };
 		988CE572223EC8D300D3A48A /* AxisLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AxisLayer.swift; sourceTree = "<group>"; };
 		988CE57922401D1A00D3A48A /* PlaygroundSupport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PlaygroundSupport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		988CE57B22401D1A00D3A48A /* PlaygroundSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlaygroundSupport.h; sourceTree = "<group>"; };
 		988CE57C22401D1A00D3A48A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		988CE59722401D4F00D3A48A /* PlaygroundPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaygroundPage.swift; sourceTree = "<group>"; };
 		988CE59A22401DAB00D3A48A /* PlaygroundPageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaygroundPageExtension.swift; sourceTree = "<group>"; };
@@ -213,7 +211,6 @@
 			isa = PBXGroup;
 			children = (
 				988CE59722401D4F00D3A48A /* PlaygroundPage.swift */,
-				988CE57B22401D1A00D3A48A /* PlaygroundSupport.h */,
 				988CE57C22401D1A00D3A48A /* Info.plist */,
 			);
 			path = PlaygroundSupport;
@@ -357,7 +354,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				988CE58B22401D1A00D3A48A /* PlaygroundSupport.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

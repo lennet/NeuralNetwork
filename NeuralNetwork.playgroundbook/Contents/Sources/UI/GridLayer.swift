@@ -2,7 +2,6 @@
 //  Copyright © 2019 Leonard Thomas. All rights reserved.
 //
 
-import QuartzCore
 import UIKit
 
 class GridLayer: CALayer {

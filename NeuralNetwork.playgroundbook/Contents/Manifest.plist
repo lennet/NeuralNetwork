@@ -14,7 +14,7 @@
 	<key>ContentIdentifier</key>
 	<string>com.example.PlaygroundBook</string>
 	<key>ContentVersion</key>
-	<string>1.0</string>
+	<string>1.0.1</string>
 	<key>DeploymentTarget</key>
 	<string>ios10.3</string>
 	<key>DevelopmentRegion</key>
@@ -22,7 +22,7 @@
 	<key>Name</key>
 	<string>Name</string>
 	<key>SwiftVersion</key>
-	<string>4.2</string>
+	<string>5.0</string>
 	<key>Version</key>
 	<string>4.0</string>
 </dict>

@@ -64,7 +64,7 @@ class PlotView: UIView {
         let points: [Point] = zip(dataSet.input.values2D, dataSet.output.values2D).map { input, output in
             let point = CGPoint(x: input[0], y: input[1])
             let color: UIColor
-            if let index = output.index(of: 1) {
+            if let index = output.firstIndex(of: 1) {
                 color = ColorHelper.colorMap[index] ?? .black
             } else {
                 color = .black

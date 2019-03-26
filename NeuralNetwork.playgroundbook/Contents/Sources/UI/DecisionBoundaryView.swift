@@ -53,7 +53,7 @@ class DecisionBoundaryView: UIView {
 
     private func pixel(for values: [Double]) -> Pixel {
         let maxValue = values.max()!
-        let maxIndex = Double((values.index(of: maxValue) ?? 0) + colorIndexOffset)
+        let maxIndex = Double((values.firstIndex(of: maxValue) ?? 0) + colorIndexOffset)
         let colorValues = ColorHelper.pixelValues.prefix(values.count)
         if maxIndex < 0 {
             return colorValues.last!.color

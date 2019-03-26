@@ -45,7 +45,7 @@ public extension DataSet {
         self.input = input
         self.output = output
 
-        let aUniCode = UnicodeScalar("A")!
+        let aUniCode = UnicodeScalar("A")
         inputLabels = (0 ..< input.shape.cols).map { index in
             String(UnicodeScalar(aUniCode.value + UInt32(index))!)
         }
@@ -62,7 +62,7 @@ public extension DataSet {
             return outputVector
         }
         output = Mat(values: outputValues)
-        let aUniCode = UnicodeScalar("A")!
+        let aUniCode = UnicodeScalar("A")
         inputLabels = (0 ..< input.shape.cols).map { index in
             String(UnicodeScalar(aUniCode.value + UInt32(index))!)
         }
